@@ -978,7 +978,7 @@ class Explorer
       Window.select @calling_window
       @settings.restore
       @running = false
-      VIM::message ""
+      VIM::message " "
       LustyE::assert(@calling_window == $curwin)
     end
 
